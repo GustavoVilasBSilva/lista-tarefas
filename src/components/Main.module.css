@@ -1,0 +1,33 @@
+.container_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.container_main .search {
+    width: 90%;
+    max-width: 600px;
+    margin-top: 90px;
+}
+
+.section_task {
+    width: 85%;
+    max-width: 580px;
+    margin-top: 64px;
+}
+
+.section_task h2 {
+    font-size: 2.2rem;
+    margin-bottom: 48px;
+}
+
+.section_newTask {
+    display: flex;
+    justify-content: end;
+    width: 85%;
+    max-width: 580px;
+    margin-top: 32px;
+}
+

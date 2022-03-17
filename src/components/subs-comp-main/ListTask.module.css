@@ -1,0 +1,57 @@
+.container_task {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.cards_tasks {
+    display: grid;
+    grid-template-columns: calc(100% - 24px) 24px;
+    font-size: 18px;
+    padding: 18px 24px;
+    border-radius: 10px;
+    color: #FFF;
+    background-color: #0047ff;
+}
+
+.cards_tasks p {
+    margin: 4px 0 26px 0;
+}
+
+
+
+.cards_tasks .situation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: default;
+    padding: 8px 10px;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+} 
+
+.cards_tasks .situation span {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../assets/visto.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
+
+.btn {
+    cursor: pointer;
+    width: 24px ;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+    background-image: url(../../assets/pointer3.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+

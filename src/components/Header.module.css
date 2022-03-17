@@ -1,0 +1,6 @@
+.header{
+    width: 152px;
+    height: calc(100% - 61px);
+    padding: 40px 20px;
+    background-color: #0047FF;
+}

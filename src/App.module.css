@@ -1,0 +1,5 @@
+.App {
+    display: grid;
+    min-height: 98vh;
+    grid-template-columns: 192px calc(100% - 192px);
+}

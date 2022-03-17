@@ -1,0 +1,17 @@
+.container_Login {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.img {
+    width: 41px;
+}
+
+.container_Login div {
+    color: #fff;
+    font-size: 14px;
+}

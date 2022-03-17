@@ -1,0 +1,45 @@
+.menu_toggle{
+    display: none;
+}
+
+li{
+    list-style: none;
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 15px;
+    transition: .3s;
+}
+
+a:hover {
+    background-color: #0039CC;
+    border-radius: 10px;
+}
+
+a span {
+    display: block;
+    width: 24px;
+    height: 24px;
+    
+}
+
+.task {
+    background-image: url(../../assets/tarefa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px;
+}
+
+.about {
+    background-image: url(../../assets/informacoes.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px;
+}
